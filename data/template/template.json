@@ -1,0 +1,10 @@
+{
+  "templateId": "centered",
+  "primaryColor": "#e0ca9e",
+  "secondaryColor": "#776448",
+  "usePageColor": false,
+  "pageColor": "#f4f2ec",
+  "transparentPageColor": true,
+  "pageColorOpacity": 75,
+  "font": "modern"
+}

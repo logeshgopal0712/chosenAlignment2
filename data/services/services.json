@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Breathe",
+    "description": "Breathe with me",
+    "price": "",
+    "link": "",
+    "paymentLink": "",
+    "image": "",
+    "video": "https://www.youtube.com/shorts/w5vNW0L0tsM"
+  },
+  {
+    "title": "Belief",
+    "description": "Believe yourself to be great version of yourself.",
+    "price": "",
+    "link": "",
+    "paymentLink": "",
+    "image": "",
+    "video": "https://www.youtube.com/shorts/V31jR_oKH4U"
+  },
+  {
+    "title": "Pattern",
+    "description": "Pattern recognition",
+    "price": "",
+    "link": "",
+    "paymentLink": "",
+    "image": "",
+    "video": "https://www.youtube.com/shorts/7L2BvyFctmA"
+  },
+  {
+    "title": "Chosen with intention",
+    "description": "A curated collection of things I genuinely love, use & choose with intention.\nExplore my favorites ->",
+    "price": "",
+    "link": "https://shopmy.us/aswitha/my-intentional-buys%0A",
+    "paymentLink": "",
+    "image": "data/services/images/service-04.png",
+    "video": ""
+  }
+]

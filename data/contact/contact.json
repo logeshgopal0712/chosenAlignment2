@@ -1,0 +1,9 @@
+{
+  "formEndpoint": "https://api.web3forms.com/submit",
+  "accessKey": "40f96740-3833-4397-93ec-b3744ff758e9",
+  "email": "chosenAlignment@gmail.com",
+  "phone": "",
+  "address": "",
+  "showCall": false,
+  "showEmail": true
+}
