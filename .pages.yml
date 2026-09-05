@@ -1,0 +1,205 @@
+media:
+  - name: serviceImages
+    label: ServiceImages
+    input: data/services/images
+    output: data/services/images
+    
+  - name: galleryImages
+    label: GalleryImages
+    input: data/gallery
+    output: data/gallery
+
+  - name: companyImages
+    label: CompanyImages
+    input: data/company
+    output: data/company
+    
+content:
+  - name: company
+    label: Company
+    type: file
+    path: data/company/company.json
+    format: json
+    fields:
+      - name: companyName
+        label: CompanyName
+        type: string
+      - name: logo
+        label: Logo
+        type: image
+      - name: yearStarted
+        label: YearStarted
+        type: number
+      - name: tagline
+        label: TagLine
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: about
+        label: About
+        type: text
+  
+  - name: contact
+    label: Contact
+    type: file
+    path: data/contact/contact.json
+    format: json
+    fields:
+      - name: formEndpoint
+        label: FormEndpoint
+        type: string
+      - name: accessKey
+        label: AccessKey
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: phone
+        label: Phone
+        type: string
+      - name: address
+        label: Address
+        type: string
+      - name: showCall
+        label: ShowCall
+        type: boolean
+      - name: showEmail
+        label: ShowEmail
+        type: boolean
+
+  - name: reviews
+    label: Reviews
+    type: file
+    path: data/reviews/reviews.json
+    format: json
+    list: true
+    fields:
+      - name: name
+        label: Name
+        type: string
+      - name: review
+        label: Review
+        type: string
+      - name: date
+        label: Date
+        type: string
+      - name: stars
+        label: Stars
+        type: number
+
+  - name: reviewSettings
+    label: ReviewSettings
+    type: file
+    path: data/reviews/settings.json
+    format: json
+    fields:
+      - name: formEndpoint
+        label: FormEndpoint
+        type: string
+      - name: accessKey
+        label: AccessKey
+        type: string
+
+  - name: socialMedia
+    label: SocialMedia
+    type: file
+    path: data/socialMedia/socialMedia.json
+    format: json
+    fields:
+      - name: instagram
+        label: Instagram
+        type: string
+      - name: facebook
+        label: Facebook
+        type: string
+      - name: linkedin
+        label: Linkedin
+        type: string
+      - name: twitter
+        label: Twitter
+        type: string
+      - name: youtube
+        label: Youtube
+        type: string
+      - name: applePodcast
+        label: ApplePodcast
+        type: string
+      - name: spotify
+        label: Spotify
+        type: string
+
+  - name: template
+    label: Template
+    type: file
+    path: data/template/template.json
+    format: json
+    fields:
+      - name: templateId
+        label: TemplateId
+        type: string
+      - name: primaryColor
+        label: PrimaryColor
+        type: string
+      - name: secondaryColor
+        label: SecondaryColor
+        type: string
+      - name: usePageColor
+        label: UsePageColor
+        type: boolean
+      - name: pageColor
+        label: PageColor
+        type: string
+      - name: transparentPageColor
+        label: TransparentPageColor
+        type: boolean
+      - name: pageColorOpacity
+        label: PageColorOpacity
+        type: number
+      - name: font
+        label: Font
+        type: string
+    
+      
+  - name: services
+    label: Services
+    type: file
+    path: data/services/services.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Service Name
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: price
+        label: Price
+        type: string
+      - name: link
+        label: Link
+        type: string
+      - name: paymentLink
+        label: PaymentLink
+        type: string
+      - name: image
+        label: Image
+        type: image
+      - name: video
+        label: Video
+        type: string
+
+  - name: gallery
+    label: Gallery
+    type: file
+    path: data/gallery/gallery.json
+    format: json
+    list: true
+    fields:
+      - name: src
+        label: Image
+        type: image
+      - name: alt
+        label: Alt
+        type: string
